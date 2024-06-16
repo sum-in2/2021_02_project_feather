@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Nest
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 0
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 2800000, guid: 99a192058fe1ceb488b32c8e3fc4f241, type: 3}
+    - {fileID: 2800000, guid: 1e4d2f58dc6d49a4a8512676b89013d8, type: 3}
+    - {fileID: 2800000, guid: ac32f91917c54214ba6eac40dac8aa94, type: 3}
+    - {fileID: 2800000, guid: de9f0c0d583d45f42a9df963e97d4ce5, type: 3}
+    - {fileID: 2800000, guid: b6623aa0b52f1fe4f91f0f2fdf5d0977, type: 3}
+    - {fileID: 2800000, guid: 89509f4b9a9bedc479a5cb17f50e7027, type: 3}
+    - {fileID: 2800000, guid: 83d8724209df5bb408419e69a69e6353, type: 3}
+    - {fileID: 2800000, guid: 4f9f0fb0406f85f4f8924cf62c35c1b1, type: 3}
+    - {fileID: 2800000, guid: c6787f98e750ea244b43de8f0d394b31, type: 3}
+    - {fileID: 2800000, guid: d099dfee772f201449e45671a49f804c, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+    packedSpriteRenderDataKeys:
+    - b6623aa0b52f1fe4f91f0f2fdf5d0977: 21300000
+    - 4f9f0fb0406f85f4f8924cf62c35c1b1: 21300000
+    - 83d8724209df5bb408419e69a69e6353: 21300000
+    - 99a192058fe1ceb488b32c8e3fc4f241: 21300000
+    - 1e4d2f58dc6d49a4a8512676b89013d8: 21300000
+    - c6787f98e750ea244b43de8f0d394b31: 21300000
+    - ac32f91917c54214ba6eac40dac8aa94: 21300000
+    - 89509f4b9a9bedc479a5cb17f50e7027: 21300000
+    - de9f0c0d583d45f42a9df963e97d4ce5: 21300000
+    - d099dfee772f201449e45671a49f804c: 21300000
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: b6623aa0b52f1fe4f91f0f2fdf5d0977, type: 3}
+  - {fileID: 21300000, guid: 4f9f0fb0406f85f4f8924cf62c35c1b1, type: 3}
+  - {fileID: 21300000, guid: 83d8724209df5bb408419e69a69e6353, type: 3}
+  - {fileID: 21300000, guid: 99a192058fe1ceb488b32c8e3fc4f241, type: 3}
+  - {fileID: 21300000, guid: 1e4d2f58dc6d49a4a8512676b89013d8, type: 3}
+  - {fileID: 21300000, guid: c6787f98e750ea244b43de8f0d394b31, type: 3}
+  - {fileID: 21300000, guid: ac32f91917c54214ba6eac40dac8aa94, type: 3}
+  - {fileID: 21300000, guid: 89509f4b9a9bedc479a5cb17f50e7027, type: 3}
+  - {fileID: 21300000, guid: de9f0c0d583d45f42a9df963e97d4ce5, type: 3}
+  - {fileID: 21300000, guid: d099dfee772f201449e45671a49f804c, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - "\uC544\uAE30\uC0C8\uB465\uC9C0_5"
+  - "\uC544\uAE30\uC0C8\uB465\uC9C0_8"
+  - "\uC544\uAE30\uC0C8\uB465\uC9C0_7"
+  - "\uC544\uAE30\uC0C8\uB465\uC9C0_1"
+  - "\uC544\uAE30\uC0C8\uB465\uC9C0_2"
+  - "\uC544\uAE30\uC0C8\uB465\uC9C0_9"
+  - "\uC544\uAE30\uC0C8\uB465\uC9C0_3"
+  - "\uC544\uAE30\uC0C8\uB465\uC9C0_6"
+  - "\uC544\uAE30\uC0C8\uB465\uC9C0_4"
+  - "\uC544\uAE30\uC0C8\uB465\uC9C0_10"
+  m_RenderDataMap: {}
+  m_Tag: Nest
+  m_IsVariant: 0

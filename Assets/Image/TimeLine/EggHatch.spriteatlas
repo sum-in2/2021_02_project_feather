@@ -1,0 +1,125 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: EggHatch
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 4096
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_IgnorePlatformSupport: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 0
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 2800000, guid: 9ccf087251f04174d878954178132863, type: 3}
+    - {fileID: 2800000, guid: c295ef524c0c5284f9c9570bfc54ac16, type: 3}
+    - {fileID: 2800000, guid: 137251b8c3a741e4fbd43a4689321bb1, type: 3}
+    - {fileID: 2800000, guid: f62a7b3df6cf8b04dad6b8c8142093e8, type: 3}
+    - {fileID: 2800000, guid: d00b82fa32d0faa458f2c4e39922f068, type: 3}
+    - {fileID: 2800000, guid: fdbabbbfd3328d54cb3f43505c839604, type: 3}
+    - {fileID: 2800000, guid: 58c75514ff85f554f9816803ec01b24b, type: 3}
+    - {fileID: 2800000, guid: a83f3af6068211c4eada9ae0738c6b82, type: 3}
+    - {fileID: 2800000, guid: 894dc682150d67e44a4874ae9adc1179, type: 3}
+    - {fileID: 2800000, guid: bde6f9d77c5b46740a46ad99b61ecd70, type: 3}
+    - {fileID: 2800000, guid: 395c5bf93acf3ae4db95f0fa83ef0e2f, type: 3}
+    - {fileID: 2800000, guid: ee8343f86062d53428a1d90b37f45792, type: 3}
+    - {fileID: 2800000, guid: d643d9468b4d42148968ee44cef8e177, type: 3}
+    - {fileID: 2800000, guid: 731e1df7c24405340915aecc7694b666, type: 3}
+    - {fileID: 2800000, guid: ff978acf054ffa84fa229f61d144bff5, type: 3}
+    - {fileID: 2800000, guid: 85e2c9359d0c64143a1c658674c4ef89, type: 3}
+    - {fileID: 2800000, guid: aaffce9bf38a4c64e8bd3b5f3be4147f, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+    packedSpriteRenderDataKeys:
+    - c295ef524c0c5284f9c9570bfc54ac16: 21300000
+    - 9ccf087251f04174d878954178132863: 21300000
+    - 894dc682150d67e44a4874ae9adc1179: 21300000
+    - 58c75514ff85f554f9816803ec01b24b: 21300000
+    - 85e2c9359d0c64143a1c658674c4ef89: 21300000
+    - d643d9468b4d42148968ee44cef8e177: 21300000
+    - a83f3af6068211c4eada9ae0738c6b82: 21300000
+    - bde6f9d77c5b46740a46ad99b61ecd70: 21300000
+    - 731e1df7c24405340915aecc7694b666: 21300000
+    - 137251b8c3a741e4fbd43a4689321bb1: 21300000
+    - ee8343f86062d53428a1d90b37f45792: 21300000
+    - 395c5bf93acf3ae4db95f0fa83ef0e2f: 21300000
+    - d00b82fa32d0faa458f2c4e39922f068: 21300000
+    - aaffce9bf38a4c64e8bd3b5f3be4147f: 21300000
+    - f62a7b3df6cf8b04dad6b8c8142093e8: 21300000
+    - fdbabbbfd3328d54cb3f43505c839604: 21300000
+    - ff978acf054ffa84fa229f61d144bff5: 21300000
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: c295ef524c0c5284f9c9570bfc54ac16, type: 3}
+  - {fileID: 21300000, guid: 9ccf087251f04174d878954178132863, type: 3}
+  - {fileID: 21300000, guid: 894dc682150d67e44a4874ae9adc1179, type: 3}
+  - {fileID: 21300000, guid: 58c75514ff85f554f9816803ec01b24b, type: 3}
+  - {fileID: 21300000, guid: 85e2c9359d0c64143a1c658674c4ef89, type: 3}
+  - {fileID: 21300000, guid: d643d9468b4d42148968ee44cef8e177, type: 3}
+  - {fileID: 21300000, guid: a83f3af6068211c4eada9ae0738c6b82, type: 3}
+  - {fileID: 21300000, guid: bde6f9d77c5b46740a46ad99b61ecd70, type: 3}
+  - {fileID: 21300000, guid: 731e1df7c24405340915aecc7694b666, type: 3}
+  - {fileID: 21300000, guid: 137251b8c3a741e4fbd43a4689321bb1, type: 3}
+  - {fileID: 21300000, guid: ee8343f86062d53428a1d90b37f45792, type: 3}
+  - {fileID: 21300000, guid: 395c5bf93acf3ae4db95f0fa83ef0e2f, type: 3}
+  - {fileID: 21300000, guid: d00b82fa32d0faa458f2c4e39922f068, type: 3}
+  - {fileID: 21300000, guid: aaffce9bf38a4c64e8bd3b5f3be4147f, type: 3}
+  - {fileID: 21300000, guid: f62a7b3df6cf8b04dad6b8c8142093e8, type: 3}
+  - {fileID: 21300000, guid: fdbabbbfd3328d54cb3f43505c839604, type: 3}
+  - {fileID: 21300000, guid: ff978acf054ffa84fa229f61d144bff5, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - 2
+  - 1
+  - 10
+  - 8
+  - 17
+  - 14
+  - 9
+  - 11
+  - 15
+  - 3
+  - 13
+  - 12
+  - 5
+  - 18
+  - 4
+  - 6
+  - 16
+  m_RenderDataMap: {}
+  m_Tag: EggHatch
+  m_IsVariant: 0
