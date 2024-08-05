@@ -59,7 +59,7 @@ public class SelectStage : MonoBehaviour
             if (i > SavedStage)
             {
                 Btns[i].color = Color.black;
-                Bars[i-1].color = Color.black;
+                Bars[i - 1].color = Color.black;
             }
         }
 

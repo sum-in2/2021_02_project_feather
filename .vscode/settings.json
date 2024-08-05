@@ -56,5 +56,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "Feather - 복사본.sln"
+    "dotnet.defaultSolution": "2021_02_project_feather.sln"
 }
