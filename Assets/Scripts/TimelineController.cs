@@ -18,7 +18,7 @@ public class TimelineController : MonoBehaviour
     {
         Play(1);
         isFirst = false;
-        if(ClearPanel == null)
+        if (ClearPanel == null)
         {
             ClearPanel = GameObject.Find("ClearCanvas");
         }
@@ -27,7 +27,7 @@ public class TimelineController : MonoBehaviour
     public void Play(int Select)
     {
         if (Select == 1)
-        { 
+        {
             StartTimeLine.Play();
         }
         else if (Select == 2 && isFirst == false)
@@ -40,7 +40,7 @@ public class TimelineController : MonoBehaviour
     public void StartSignal()
     {
         Time.timeScale = 1;
-        for(int i= 0; i < GameObjects.Length; i++)
+        for (int i = 0; i < GameObjects.Length; i++)
         {
             GameObjects[i].gameObject.SetActive(true);
         }

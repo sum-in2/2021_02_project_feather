@@ -38,7 +38,7 @@ public class DataManager : MonoBehaviour
         if (!PlayerPrefs.HasKey("Episode"))
             PlayerPrefs.SetInt("Episode", 0);
 
-        if(!PlayerPrefs.HasKey("Stage"))
+        if (!PlayerPrefs.HasKey("Stage"))
             PlayerPrefs.SetInt("Stage", 0);
     }
 
@@ -64,7 +64,7 @@ public class DataManager : MonoBehaviour
 
     public void ClearStage()
     {
-        if(nowPlayStage == PlayerPrefs.GetInt("Stage"))
+        if (nowPlayStage == PlayerPrefs.GetInt("Stage"))
             PlayerPrefs.SetInt("Stage", PlayerPrefs.GetInt("Stage") + 1);
     }
 
@@ -72,7 +72,7 @@ public class DataManager : MonoBehaviour
     {
         index -= 1;
 
-        LeafB[nowPlayEpisode,nowPlayStage,index] = 1;
+        LeafB[nowPlayEpisode, nowPlayStage, index] = 1;
     }
 
     public int getStageLeafB(int index)

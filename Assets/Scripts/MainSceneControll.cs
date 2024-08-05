@@ -66,7 +66,7 @@ public class MainSceneControll : MonoBehaviour
     }
     public void OnSelectEpisode(int Episode)
     {
-        if(Episode < DataManager.instance.GetSavedEpisode() + 1)
+        if (Episode < DataManager.instance.GetSavedEpisode() + 1)
         {
             DataManager.instance.CanvasNum = 3;
             CanvasOpen();
@@ -79,19 +79,19 @@ public class MainSceneControll : MonoBehaviour
 
         Stage = SS.index;
 
-        if (ButtonName == "Stage" + (Stage+1) + "Btn")
+        if (ButtonName == "Stage" + (Stage + 1) + "Btn")
         {
             DataManager.instance.nowPlayStage = Stage;
-            SceneManager.LoadScene(Stage+1);
+            SceneManager.LoadScene(Stage + 1);
         }
     }
 
     void CanvasOpen()
     {
-        for(int i = 0; i < 3; i++)
+        for (int i = 0; i < 3; i++)
         {
             Canvases[i].gameObject.SetActive(false);
-            if (i == DataManager.instance.CanvasNum )
+            if (i == DataManager.instance.CanvasNum)
                 Canvases[i].gameObject.SetActive(true);
         }
 

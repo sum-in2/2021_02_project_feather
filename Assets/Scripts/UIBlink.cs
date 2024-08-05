@@ -12,7 +12,7 @@ public class UIBlink : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        if(Img == null)
+        if (Img == null)
             Img = GetComponent<Image>();
     }
 

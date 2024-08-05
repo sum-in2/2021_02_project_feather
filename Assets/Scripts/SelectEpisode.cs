@@ -47,7 +47,7 @@ public class SelectEpisode : MonoBehaviour
     {
         if (Input.anyKeyDown)
         {
-            moveSelect();           
+            moveSelect();
         }
 
         if (Input.GetKeyDown(KeyCode.Return))

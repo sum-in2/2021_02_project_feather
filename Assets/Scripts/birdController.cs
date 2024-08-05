@@ -72,7 +72,8 @@ public class birdController : MonoBehaviour
             GameObject.Find("SceneManager").GetComponent<_SceneManager>().pauseGame();
         }
 
-        if (!isdead){
+        if (!isdead)
+        {
             if (isClear)
             {
                 GameObject.Find("TimeLineController").GetComponent<TimelineController>().Play(2);
@@ -80,8 +81,9 @@ public class birdController : MonoBehaviour
             else
                 MoveBird();
         }
-        else{
-            if(Cnt_leafA > SetResCnt - 1 && !isRes)
+        else
+        {
+            if (Cnt_leafA > SetResCnt - 1 && !isRes)
             {
                 StartCoroutine(LoadSavePoint());
             }
@@ -123,7 +125,7 @@ public class birdController : MonoBehaviour
         isCoolTime = true;
         ImgSkillInv.color = new Color32(255, 255, 255, 128);
 
-        while(ImgSkillInv.fillAmount < 1)
+        while (ImgSkillInv.fillAmount < 1)
         {
             ImgSkillInv.fillAmount += (1f / SetCoolTime) * 0.1f;
             yield return new WaitForSeconds(0.1f);
@@ -189,17 +191,17 @@ public class birdController : MonoBehaviour
             Cnt_leafA++;
         }
 
-        if( other.gameObject.CompareTag("leafB"))
+        if (other.gameObject.CompareTag("leafB"))
         {
             other.gameObject.SetActive(false);
             Cnt_leafB++;
-            DataManager.instance.setLeafB( int.Parse(other.gameObject.name.Replace("leafB_", "")));
+            DataManager.instance.setLeafB(int.Parse(other.gameObject.name.Replace("leafB_", "")));
         }
 
         if (Equals(other.gameObject.tag.CompareTo("obstacle"), 0) && !isInvincibility)
         {
             isdead = true;
-        } 
+        }
         if (Equals(other.gameObject.tag.CompareTo("ground"), 0))
         {
             isdead = true;

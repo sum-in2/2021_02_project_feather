@@ -15,7 +15,7 @@ public class LeafControll : MonoBehaviour
     // Update is called once per frame
     private void Awake()
     {
-        for(int i = 0; i < 3; i++)
+        for (int i = 0; i < 3; i++)
             ActiveLeafB[i] = DataManager.instance.getStageLeafB(i);
 
         for (int i = 0; i < 3; i++)
